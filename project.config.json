@@ -1,0 +1,46 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.1",
+	"appid": "wxa5b2f800bcfd0903",
+	"projectname": "quickStar",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "parm",
+					"pathName": "pages/index/index",
+					"query": "msg = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+					"scene": "1072"
+				},
+				{
+					"id": 1,
+					"name": "parmkey",
+					"pathName": "pages/test/test",
+					"query": "src=-----BEGIN PUBLIC KEY----- MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDANAiWD4r44M3N6Oilf+pRjaEz c7otqRQfqkQPDLjAVFrt548+mLe0H7SzrltKfXW76hDM+k6+8Vr+Bbbm+Hy/ItOf sLeAkzBXLq+/uaI3UNPt8l7Gg7q/g/tnTI2Icz781rD9N1YHeYGKuzSgJpPDSqbt +yVh5yOCXeyb8g5tWQIDAQAB -----END PUBLIC KEY-----"
+				}
+			]
+		}
+	}
+}

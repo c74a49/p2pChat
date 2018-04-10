@@ -1,0 +1,10 @@
+<!--page/test.wxml-->
+
+<view class='content'>
+
+    <text class='tip'> 收件人: {{dst}}</text>
+    <text class='show'> {{text}}</text>
+    <text class='tip'> 发送至: {{src}}</text>
+    <input class='input' bindinput="inputMoney"></input>
+    <button class='btn' open-type='share'>发送</button>
+</view>

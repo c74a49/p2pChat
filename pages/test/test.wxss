@@ -1,0 +1,54 @@
+/* page/test.wxss */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+.show {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #596f54;
+    border-width: 1rpx;
+    border-radius: 5px;
+    margin: 10%;
+}
+
+.tip {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    /*border-style: solid;
+    border-color: #596f54;
+    border-width: 1rpx;
+    border-radius: 5px; */
+    margin: 10%;
+}
+
+.input {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #f2f2f2;
+    border-width: 1px;
+    margin-bottom: 10%;
+    font-size: 14px;
+}
+
+.btn {
+    width: 80%;
+    background-color: #f0f8ff;
+}
